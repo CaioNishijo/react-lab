@@ -1,11 +1,11 @@
-import Profile from "./Profile"
+import Image from "./Imagem"
 
 function Gallery(){
     return <section>
         <h1>Imagens</h1>
-        <Profile />
-        <Profile />
-        <Profile />
+        <Image />
+        <Image />
+        <Image />
     </section>
 }
 
