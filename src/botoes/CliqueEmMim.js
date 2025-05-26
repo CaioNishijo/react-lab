@@ -1,7 +1,5 @@
-export default function CliqueEmMim(){
-    return <button onClick={handleClick}>Clique aqui</button>
+export default function CliqueEmMim({ message, children }){
+    return <button onClick={() => {alert(message)}}>{children}</button>
+
 }
 
-function handleClick(){
-    window.alert("Boa noite!")
-}

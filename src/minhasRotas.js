@@ -6,6 +6,7 @@ import Ex2 from "./paginas/Ex2";
 import Relogio from "./paginas/Relogio";
 import Gallery from "./paginas/Gallery";
 import App from "./App";
+import Semana4 from "./paginas/Semana4";
 
 function MinhasRotas(){
     return(
@@ -18,6 +19,7 @@ function MinhasRotas(){
                 <Route path="/ex2" element={<Ex2 />}/>
                 <Route path="/relogio" element={<Relogio />}/>
                 <Route path="/gallery" element={<Gallery />}/>
+                <Route path="/semana-4" element={<Semana4 />}/>
             </Routes>
         </BrowserRouter>
     );
