@@ -4,6 +4,7 @@ import GalleryList from "./GalleryList"
 import Counter from "./Contador"
 import Forms from "./Forms"
 import MovingDot from "./MovingDot"
+import Forms2 from "./Forms2"
 
 export default function Semana4(){
     return <>
@@ -18,5 +19,7 @@ export default function Semana4(){
         <Forms></Forms>
         <hr></hr>
         <MovingDot></MovingDot>
+        <hr></hr>
+        <Forms2></Forms2>
     </>
 }
