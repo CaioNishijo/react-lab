@@ -2,6 +2,8 @@ import Toolbar from "../botoes/Toolbar"
 import SignUp from "./SignUp"
 import GalleryList from "./GalleryList"
 import Counter from "./Contador"
+import Forms from "./Forms"
+import MovingDot from "./MovingDot"
 
 export default function Semana4(){
     return <>
@@ -12,5 +14,9 @@ export default function Semana4(){
         <GalleryList></GalleryList>
         <hr></hr>
         <Counter></Counter>
+        <hr></hr>
+        <Forms></Forms>
+        <hr></hr>
+        <MovingDot></MovingDot>
     </>
 }
