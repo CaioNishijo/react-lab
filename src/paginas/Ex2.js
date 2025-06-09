@@ -9,6 +9,10 @@ import { TIPO_AUMENTAR, TIPO_DIMINUIR } from '../contantes/constantes';
 const SDiv = styled.div`
     display: flex;
     flex-direction: row;
+
+    div{
+        margin-right: 100px;
+    }
 `
 
 function Ex2(){
