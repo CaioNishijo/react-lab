@@ -13,7 +13,7 @@ function Profile(){
         <Avatar 
                 person={{
                     name: "Katsuko Saruhashi",
-                    imgaeId: "YfeOqp2"
+                    imageId: "YfeOqp2"
                 }}
             size={200}
         />

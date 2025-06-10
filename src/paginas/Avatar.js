@@ -1,5 +1,4 @@
 import { getImageUrl } from "./Utils"
-import i from "../img/YfeOqp2.jpeg"
 
 export default function Avatar({ person, size = 100 }){
     return <img
