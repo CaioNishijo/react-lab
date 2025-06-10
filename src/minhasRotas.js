@@ -4,10 +4,10 @@ import Home from "./paginas/Home";
 import Ex1 from "./paginas/Ex1";
 import Ex2 from "./paginas/Ex2";
 import Relogio from "./paginas/Relogio";
-import Gallery from "./paginas/Gallery";
 import App from "./App";
 import Semana4 from "./paginas/Semana4";
 import Semana5 from "./paginas/Semana5";
+import Semana3 from "./paginas/Semana3";
 
 function MinhasRotas(){
     return(
@@ -19,7 +19,7 @@ function MinhasRotas(){
                 <Route path="/ex1" element={<Ex1 />}/>
                 <Route path="/ex2" element={<Ex2 />}/>
                 <Route path="/relogio" element={<Relogio />}/>
-                <Route path="/gallery" element={<Gallery />}/>
+                <Route path="/semana-3" element={<Semana3 />}/>
                 <Route path="/semana-4" element={<Semana4 />}/>
                 <Route path="/semana-5" element={<Semana5 />}/>
             </Routes>

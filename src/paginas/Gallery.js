@@ -1,11 +1,12 @@
-import Image from "./Imagem"
+import Artist from "./Artist"
 
 function Gallery(){
     return <section>
         <h1>Imagens</h1>
-        <Image />
-        <Image />
-        <Image />
+        <Artist />
+        <Artist />
+        <Artist />
+
     </section>
 }
 
